@@ -1,0 +1,159 @@
+<!-- 
+
+This HTML file creates a fancy slider with multiple slides, each representing a different Marvel character. 
+The slider includes navigation controls to switch between slides and a credits section.
+
+Structure:
+- The main container is a div with the class "demo-cont".
+- Inside the main container, there is a slider with the class "fnc-slider example-slider".
+- The slider contains multiple slides, each with the class "fnc-slide" and different blend modes.
+- Each slide has inner content including a heading and a button.
+- Navigation controls are provided to switch between slides.
+- A credits section is included at the bottom, providing information about the creator and the concept.
+
+Dependencies:
+- External CSS file: style.css
+- External JavaScript file: main.js
+
+Credits:
+- Created by Nikolay Talanov
+- Concept by Kreativa Studio
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+<div class="demo-cont">
+    <!-- slider start -->
+    <div class="fnc-slider example-slider">
+      <div class="fnc-slider__slides">
+        <!-- slide start -->
+        <div class="fnc-slide m--blend-green m--active-slide">
+          <div class="fnc-slide__inner">
+            <div class="fnc-slide__mask">
+              <div class="fnc-slide__mask-inner"></div>
+            </div>
+            <div class="fnc-slide__content">
+              <h2 class="fnc-slide__heading">
+                <div class="fnc-slide__heading-line">
+                  <span>Black</span>
+                </div>
+                <div class="fnc-slide__heading-line">
+                  <span>Widow</span>
+                </div>
+              </h2>
+              <button type="button" class="fnc-slide__action-btn">
+                By Gaurav
+                <span data-text="By Gaurav">By Gaurav</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- slide end -->
+        <!-- slide start -->
+        <div class="fnc-slide m--blend-dark">
+          <div class="fnc-slide__inner">
+            <div class="fnc-slide__mask">
+              <div class="fnc-slide__mask-inner"></div>
+            </div>
+            <div class="fnc-slide__content">
+              <h2 class="fnc-slide__heading">
+                <div class="fnc-slide__heading-line">
+                  <span>Captain</span>
+                </div>
+                <div class="fnc-slide__heading-line">
+                  <span>America</span>
+                </div>
+              </h2>
+              <button type="button" class="fnc-slide__action-btn">
+                By Gaurav
+                <span data-text="By Gaurav">By Gaurav</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- slide end -->
+        <!-- slide start -->
+        <div class="fnc-slide m--blend-red">
+          <div class="fnc-slide__inner">
+            <div class="fnc-slide__mask">
+              <div class="fnc-slide__mask-inner"></div>
+            </div>
+            <div class="fnc-slide__content">
+              <h2 class="fnc-slide__heading">
+                <div class="fnc-slide__heading-line">
+                  <span>Iron</span>
+                </div>
+                <div class="fnc-slide__heading-line">
+                  <span>Man</span>
+                </div>
+              </h2>
+              <button type="button" class="fnc-slide__action-btn">
+                By Gaurav
+                <span data-text="By Gaurav">By Gaurav</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- slide end -->
+        <!-- slide start -->
+        <div class="fnc-slide m--blend-blue">
+          <div class="fnc-slide__inner">
+            <div class="fnc-slide__mask">
+              <div class="fnc-slide__mask-inner"></div>
+            </div>
+            <div class="fnc-slide__content">
+              <h2 class="fnc-slide__heading">
+                <div class="fnc-slide__heading-line">
+                  <span>Thor</span>
+                </div>
+                <div class="fnc-slide__heading-line">
+                  <span>Just Thor</span>
+                </div>
+              </h2>
+              <button type="button" class="fnc-slide__action-btn">
+                By Gaurav
+                <span data-text="By Gaurav">By Gaurav</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- slide end -->
+      </div>
+      <nav class="fnc-nav">
+        <div class="fnc-nav__bgs">
+          <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+          <div class="fnc-nav__bg m--navbg-dark"></div>
+          <div class="fnc-nav__bg m--navbg-red"></div>
+          <div class="fnc-nav__bg m--navbg-blue"></div>
+        </div>
+        <div class="fnc-nav__controls">
+          <button class="fnc-nav__control">
+            Black Widow
+            <span class="fnc-nav__control-progress"></span>
+          </button>
+          <button class="fnc-nav__control">
+            Captain America
+            <span class="fnc-nav__control-progress"></span>
+          </button>
+          <button class="fnc-nav__control">
+            Iron Man
+            <span class="fnc-nav__control-progress"></span>
+          </button>
+          <button class="fnc-nav__control">
+            Thor
+            <span class="fnc-nav__control-progress"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+    <script src="main.js"></script>
+</body>
+</html>
