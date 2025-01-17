@@ -1,5 +1,3 @@
-/* author: https://codepen.io/suez/pen/wMMgXp
-Nikolay Talanovs */
 .fnc {
   --blend-color-red: rgba(255, 0, 0, 0.5);
   --blend-color-blue: rgba(0, 0, 255, 0.5);
@@ -329,7 +327,6 @@ Nikolay Talanovs */
   transform: scaleX(0) !important;
 }
 
-/* NOT PART OF COMMON SLIDER STYLES */
 body {
   margin: 0;
 }
@@ -374,4 +371,3 @@ body {
 .example-slider .fnc-nav__control {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
-/*  */
